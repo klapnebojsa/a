@@ -20,6 +20,7 @@ class Testing
   DisplayMode newMode = new DisplayMode(800,600,oldMode.getBitDepth(),oldMode.getRefreshRate());
   public void buildGUI()
   {
+    int i=1;
     JPanel p = new JPanel();
     JButton b1 = new JButton("Old Res.");
     JButton b2 = new JButton("800 x 600");
